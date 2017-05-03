@@ -5,51 +5,18 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     background-color: #FFF1F0;
-    .header {
-        display: block;
-        text-align: center;
+    .container {
+        border: 1px solid black;
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
     }
-    .log {
-        display: block;
+    .jq_form, h3, .jq_table {
+        width: 100%;
     }
-    #answ {
-        height: 6em;
-    }
-    .wrapper {
-        margin: 1em;
-        padding: 0 5px 2px 5px;
-        background-color: #DFE3E7;
+    .jq_table {
+        height: 300px;
+        overflow: auto;
         display: block;
-        .wr1 {
-            display: inline-block;
-            vertical-align: top;
-            width: 15em;
-            input {
-                width: 100%;
-                height: 33%;
-            }
-        }
-        .wr2 {
-            display: inline-block;
-            margin: 0 1em;
-        }
-        .wr3 {
-            vertical-align: top;
-            display: inline-block;
-            width: 20em;
-            margin: 0;
-            list-style: none;
-            li {
-                display: inline-block;
-            }
-        }
-        textarea,
-        input {
-            color: #B3B5D8;
-            margin: 1px;
-            border: solid 1px;
-            font-family: 'Oswald', sans-serif;
-            font-size: 16px;
-        }
     }
 }

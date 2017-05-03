@@ -5,14 +5,30 @@
     <meta charset="UTF-8">
     <title>Cancenter</title>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
-	<script type="text/javascript" src=".\node_modules\jquery\dist\jquery.min.js"></script>
+    <script type="text/javascript" src=".\node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/php" src="getter.php"></script>
     <script type="text/javascript" src="js/handle.js"></script>
 </head>
 
 <body>
- <div id="cont">Cantidad: <input type="text" id="qua" value="2"> <button id="btn">Go!</button></div>
- <div id="cont2"></div>
+    <div class="container">
+        <form class="jq_form" id="cont">
+            <label for="qua">Cantidad:</label>
+            <input type="number" id="qua" value="2">
+            <button id="btn">Go!</button>
+        </form>
+        <h3>Listado</h3>
+        <table class="jq_table" id="jqTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Elemento</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
 </body>
 
 </html>
